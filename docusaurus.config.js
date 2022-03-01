@@ -7,7 +7,7 @@ const config = {
   tagline: 'Powerfull Discord API Library for Node.js',
   url: 'https://esmeraldjs.org',
   baseUrl: '/',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'esmeraldjs', 
