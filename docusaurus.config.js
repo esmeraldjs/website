@@ -37,11 +37,11 @@ const config = {
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'general/intro',
             position: 'left',
             label: 'Documentation',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: "/blog", label: 'Changelogs', position: 'left', title: "Changelogs"},
           {
             href: 'https://github.com/esmeraldjs',
             position: 'right',

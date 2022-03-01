@@ -5,7 +5,7 @@ sidebar_position: 1
 # Welcome
 <p align="center">
 
-![Banner](../static/img/Esmerald_Banner.png)
+![Banner](../../static/img/Esmerald_Banner.png)
 
 <a href="https://www.npmjs.com/package/esmerald.js"><img src="https://img.shields.io/npm/v/esmerald.js.svg?maxAge=3600" alt="npm version"/></a>
 <a href="https://www.npmjs.com/package/esmerald.js"><img src="https://img.shields.io/npm/dt/esmerald.js.svg?maxAge=3600" alt="npm downloads" /></a>
