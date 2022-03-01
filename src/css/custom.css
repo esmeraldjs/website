@@ -1,0 +1,115 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #2e8555;
+  --ifm-color-primary-dark: #29784c;
+  --ifm-color-primary-darker: #277148;
+  --ifm-color-primary-darkest: #205d3b;
+  --ifm-color-primary-light: #33925d;
+  --ifm-color-primary-lighter: #359962;
+  --ifm-color-primary-lightest: #3cad6e;
+  --ifm-code-font-size: 95%;
+}
+
+/* For readability concerns, you should choose a lighter palette in dark mode. */
+[data-theme='dark'] {
+  --ifm-color-primary: #71f171;
+  --ifm-color-primary-dark: #21af57;
+  --ifm-color-primary-darker: #2aa51f;
+  --ifm-color-primary-darkest: #1a883b;
+  --ifm-color-primary-light: #24f150;
+  --ifm-color-primary-lighter: #24f17a;
+  --ifm-color-primary-lightest: #86ee91;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.1);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+[data-theme='dark'] .docusaurus-highlight-code-line {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="github"] {
+  padding: 0 1.5rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="github"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("/img/brand-github-inverted.svg");
+  background-repeat: no-repeat;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="discord"] {
+  padding: 0 1.5rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+[data-theme='dark'] .navbar__item.navbar__link[href*="discord"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("/img/Discord-Logo-White.svg");
+  background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="discord"] {
+  padding: 0 1.5rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="discord"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("/img/Discord-Logo-Black.svg");
+  background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="github"] {
+  padding: 0 1.5rem 0 0;
+  display: flex;
+  font-size: 0;
+}
+
+.navbar__item.navbar__link[href*="github"]:before {
+  content: "";
+  width: 1.5rem;
+  height: 1.5rem;
+  background-image: url("/img/brand-github.svg");
+  background-repeat: no-repeat;
+}
+
+.subtitle_esmerald {
+  font-size: 1.5rem;
+  color: #86ee91 !important;
+}
+
+.button_esmerald {
+  background-color: #86ee91;
+  border-color: #86ee91;
+}
+
+.button_esmerald:hover {
+  background-color: #64f573cc;
+  border-color: #64f573cc;
+}
+
+.hero--primary {
+  --ifm-hero-background-color: #303130;
+  --ifm-hero-text-color: var(--ifm-font-color-base-inverse);
+}
