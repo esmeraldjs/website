@@ -28,10 +28,10 @@ Esmerald.js is a powerfull [Discord API](https://discord.com/developers/docs/int
 # Using NPM
 npm install esmerald.js
 
-#Using YARN
+# Using YARN
 yarn add esmerald.js
 
-#Usin PNPM
+# Using PNPM
 pnpm add esmerald.js
 ```
 
