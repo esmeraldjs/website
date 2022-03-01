@@ -5,6 +5,6 @@ authors: [Vitogiu, Leoo]
 tags: [hello, discord]
 ---
 
-Hello User 👋
+Hello user 👋
 
 Welcome to our blog!
