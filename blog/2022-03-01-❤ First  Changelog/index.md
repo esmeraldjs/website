@@ -1,7 +1,7 @@
 ---
 slug: ❤ First  Changelog - v0.1.2
 title: ❤ First  Changelog - v0.1.2
-authors: [Vitogiu]
+authors: [Vitogiu, Shushi]
 tags: [discord, esmerald.js, changelog, v0.1.2]
 ---
 
